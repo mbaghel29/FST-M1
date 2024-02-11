@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ExampleSuite" >
+    <test name="SuiteTests" >
+        <classes>
+            <class name="suiteExample.DemoOne"/>
+            <class name="suiteExample.DemoTwo"/>
+        </classes>
+    </test>
+    <test name="Test1">
+        <parameter name="username" value="admin"/>
+        <parameter name="password" value="password"/>
+        <classes>
+            <class name="activities.Activity6"/>
+        </classes>
+    </test>
+    <test name="Test2">
+        <classes>
+            <class name="activities.Activity7"/>
+        </classes>
+    </test>
+    <test name="Tests3">
+        <classes>
+            <class name="activities.Activity1"/>
+            <class name="activities.Activity2"/>
+            <class name="activities.Activity3"/>
+            <class name="activities.Activity5"/>
+            <class name="activities.Activity6"/>
+        </classes>
+    </test>
+    <test name="Test4">
+        <classes>
+            <class name="activities.Activity7"/>
+        </classes>
+    </test>
+    <test name="Test5">
+        <classes>
+            <class name="activities.Activity9"/>
+        </classes>
+    </test>
+</suite>
